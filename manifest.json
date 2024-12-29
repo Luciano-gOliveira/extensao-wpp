@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Ambiente Zap",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://web.whatsapp.com/"],
+            "css": ["style.css"],
+            "js": ["config.js", "content.js"]
+        }
+    ]
+}
